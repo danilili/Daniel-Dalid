@@ -1206,10 +1206,10 @@ a.curent-nav-color{
 }
 @media only screen and (min-width: 1930px) { .parallax { background-size: cover; } }
  @media only screen and (min-device-width : 768px) and (max-device-width : 1200px) and (orientation : landscape) {
-	.parallax { background-size: cover; background-attachment: scroll; background-position: top center!important; }
+	.parallax { background-size: cover; background-attachment: fixed; background-position: top center!important; }
 }
 @media only screen and (max-width: 1400px) {
-	.parallax { background-size: cover; background-attachment: scroll; background-position: top center!important; }
+	.parallax { background-size: cover; background-attachment: fixed; background-position: top center!important; }
 }
 
 .parallax1 {
@@ -3056,11 +3056,28 @@ figure.vimeo a img, figure.youtube a img {
 }
 
 
+/* #Mis cambios
+================================================== */
 
+#leer-mas {
+	font-style: italic;
+	color: forestgreen;
+	text-decoration: underline;
 
+}
+#hide-p {
+	display: none;
+}
 
+#leer-mas2 {
+	font-style: italic;
+	color: forestgreen;
+	text-decoration: underline;
 
-
+}
+#hide-p2 {
+	display: none;
+}
 
 
 
